@@ -1,0 +1,129 @@
+name: izesan
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  intl: ^0.17.0
+  provider: ^6.0.2
+  get_it: ^7.2.0
+  date_time_picker: ^2.1.0
+  dio: ^5.4.1
+  validators: ^3.0.0
+  path_provider: ^2.0.14
+  path: ^1.8.0
+  permission_handler: ^11.3.0
+  local_auth: ^2.0.0
+  pretty_dio_logger: ^1.1.1
+  cloud_firestore: ^4.15.9
+  shared_preferences: ^2.0.13
+  deep_pick: ^1.0.0
+  cached_network_image: ^3.3.1
+  firebase_core: ^2.17.0
+  firebase_remote_config: ^4.2.2
+  firebase_core_platform_interface: ^5.0.0
+  firebase_analytics: ^10.4.2
+  firebase_crashlytics: ^3.3.3
+  json_annotation: ^4.5.0
+  equatable: ^2.0.3
+  pdf: ^3.8.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  in_app_review: ^2.0.4
+  pinput: ^4.0.0
+  dropdown_button2: ^2.0.0
+  geolocator: ^11.0.0
+  firebase_messaging: ^14.7.20
+  share_plus: ^7.1.0
+  timeago: ^3.3.0
+  shimmer: ^3.0.0
+  url_launcher: ^6.1.10
+  date_format: ^2.0.7
+  package_info_plus: ^8.0.0
+  hive_generator: ^2.0.1
+  fk_user_agent: ^2.1.0
+  launch_review: ^3.0.1
+  uni_links: ^0.5.1
+  internet_connection_checker: ^1.0.0+1
+  webview_flutter: ^4.2.4
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
+  flutter_local_notifications: ^17.0.0
+  video_player: ^2.8.7
+  chewie: ^1.8.1
+  flutter_typeahead: ^5.2.0
+  build_runner: ^2.4.11
+  flutter_secure_storage: ^9.2.2
+  encrypt: ^5.0.3
+  collection: ^1.18.0
+  audioplayers: ^6.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/bodyParts/
+    - assets/images/objects_in_home/
+    - assets/images/animals/
+    - assets/images/environment/
+    - assets/images/noun/
+    - assets/icons/
+    - assets/audio/
+    - assets/audio/part_of_body/yoruba/
+    - assets/audio/part_of_body/igbo/
+    - assets/audio/part_of_body/hausa/
+    - assets/audio/objects_in_home/hausa/
+    - assets/audio/objects_in_home/igbo/
+    - assets/audio/objects_in_home/yoruba/
+    - assets/audio/animals/hausa/
+    - assets/audio/animals/igbo/
+    - assets/audio/animals/yoruba/
+    - assets/audio/environments/hausa/
+    - assets/audio/environments/igbo/
+    - assets/audio/environments/yoruba/
+    - assets/audio/noun/hausa/
+    - assets/audio/noun/igbo/
+    - assets/audio/noun/yoruba/
+
+
+  fonts:
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/NunitoSans-ExtraLight.ttf
+        - asset: assets/fonts/NunitoSans-Light.ttf
+        - asset: assets/fonts/NunitoSans-Regular.ttf
+        - asset: assets/fonts/NunitoSans-SemiBold.ttf
